@@ -7,7 +7,7 @@ try {
     define('password','daw2_Sauces'); // Contraseña de la base de datos
 
     // Crear conexión
-    $conn = new PDO(DSN, USERNAME, PASSWORD);
+    $conn = new PDO(dsn, usuario, password);
 
     // Creamos una variable con varias consultas a realizar
     $consulta = <<<CONSULTA
