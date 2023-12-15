@@ -31,19 +31,19 @@
             <tr>
                 <td>CreaDB202DWESProyectoTema5.sql</td>
                 <td><a href="mostrarcodigo/muestraEjercicioSQL00.php">Visualizar</a></td>
-                <td><a href="scriptDB/CreaDB202DWESProyectoTema5.php">Ejecutar</a></td>
+                <td><a href="scriptDB/CreaDB202DWESProyectoTema5.php">Ejecutar<a style="color:red;"> - NO TOCAR</a></a></td>
                 <td><a href="mostrarcodigo/muestraEjercicioSQL00_EXP.php">Visualizar</a></td>
             </tr>
             <tr>
                 <td>CargaInicialDB202DWESProyectoTema5.sql</td>
                 <td><a href="mostrarcodigo/muestraEjercicioSQL01.php">Visualizar</a></td>
-                <td><a href="scriptDB/CargaInicialDB202DWESProyectoTema5.php">Ejecutar</a></td>
+                <td><a href="scriptDB/CargaInicialDB202DWESProyectoTema5.php">Ejecutar<a style="color:red;"> - NO TOCAR</a></a></td>
                 <td><a href="mostrarcodigo/muestraEjercicioSQL01_EXP.php">Visualizar</a></td>
             </tr>
             <tr>
                 <td>BorraDB202DWESProyectoTema5.sql</td>
                 <td><a href="mostrarcodigo/muestraEjercicioSQL02.php">Visualizar</a></td>
-                <td><a href="scriptDB/BorraDB202DWESProyectoTema5.php">Ejecutar</a></td>
+                <td><a href="scriptDB/BorraDB202DWESProyectoTema5.php">Ejecutar<a style="color:red;"> - NO TOCAR</a></a></td>
                 <td><a href="mostrarcodigo/muestraEjercicioSQL02_EXP.php">Visualizar</a></td>
             </tr>
         </table>
