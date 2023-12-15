@@ -1,4 +1,7 @@
 <?php
+// Configuración de conexión con la base de datos
+require_once '../config/configDB.php';
+
 try {
     // Configuración de conexión con la base de datos
     define('dsn', 'mysql:host=db5014806730.hosting-data.io;dbname=dbs12302406'); // Host y nombre de la base de datos
@@ -13,6 +16,7 @@ try {
                 ('AAA', 'Departamento de Ventas', NOW(), 100000.50, NULL),
                 ('AAB', 'Departamento de Marketing', NOW(), 50089.50, NULL),
                 ('AAC', 'Departamento de Finanzas', NOW(), 600.50, NULL);
+            
             INSERT INTO dbs12302406.T01_Usuario (T01_CodUsuario, T01_Password, T01_DescUsuario, T01_Perfil) VALUES
                 ('admin', SHA2(CONCAT('admin','paso'), 'administrador', 'administrador'),
                 ('alvaro', SHA2(CONCAT('alvaro','paso'), 'Álvaro Cordero Miñambres', 'usuario'),
