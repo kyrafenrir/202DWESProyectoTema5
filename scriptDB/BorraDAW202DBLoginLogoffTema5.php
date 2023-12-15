@@ -5,7 +5,7 @@ try {
     define('usuario','dbu1907033'); // Nombre de usuario de la base de datos
     define('password','daw2_Sauces'); // Contraseña de la base de datos
     // Crear conexion DB
-    $conn = new PDO(DSN, USERNAME, PASSWORD);
+    $conn = new PDO(dsn, usuario, password);
 
     // Utilizar la base de datos 
     $query1 = "USE dbs12302406;";

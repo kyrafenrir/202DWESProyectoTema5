@@ -1,3 +1,3 @@
 <?php
-highlight_file('../scriptDB/BorraDB202DWESProyectoTema5.php'); 
+highlight_file('../scriptDB/BorraDAW202DBLoginLogoffTema5.php'); 
 ?>

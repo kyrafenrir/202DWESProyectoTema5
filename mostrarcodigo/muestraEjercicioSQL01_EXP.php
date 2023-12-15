@@ -1,3 +1,3 @@
 <?php
-highlight_file('../scriptDB/CargaInicialDB202DWESProyectoTema5.php'); 
+highlight_file('../scriptDB/CargaInicialDAW202DBLoginLogoffTema5.php'); 
 ?>
