@@ -6,7 +6,7 @@
 USE DB202DWESLoginLogoffTema5;
 
 /*Se insertan valores en la tabla Usuario*/
-insert into T01_Usuario (T01_CodUsuario, T01_Password, T01_DescUsuario, T01_FechaHoraUltimaConexion, T01_Perfil) values 
+insert into T01_Usuario(T01_CodUsuario, T01_Password, T01_DescUsuario, T01_FechaHoraUltimaConexion, T01_Perfil) values 
     ("heraclio",SHA2(CONCAT('heraclio','paso'), 256),"Heraclio Borbujo Moran", NULL, "administrador"), 
     ("alberto",SHA2(CONCAT('alberto','paso'), 256),"Alberto Bahillo Fernandez", NULL, "administrador"),
     ("antonio",SHA2(CONCAT('antonio','paso'), 256),"Antonio Jañez Velada", NULL, "administrador"),
@@ -26,3 +26,13 @@ insert into T02_Departamento values
     ("PRE","Proyectos de edificacion",now(),150,null),
     ("DAM","Desarrollo de aplicaciones multiplataforma",now(),10.25,null),
     ("ASI","Administracion de sistemas informaticos en red",now(),0.10,null);
+
+/*Se insertan valores en la tabla Alumno*/
+insert into T09_Alumno values 
+    ("A01","Rebeca","Sanchez","1992-08-15 07:21:53","DAW",12.12,null),
+    ("A02","Erika","Martínez","1987-05-03 15:44:29","DAW",22.12,null),
+    ("A03","Alvaro","Cordero","1998-11-20 23:12:18","DAW",12.12,null),
+    ("A04","Borja","Nuñez","1986-02-18 04:36:07","DAW",22.12,null),
+    ("A05","Ismael","Ferreras","2001-04-28 11:55:42","DAW",12.12,null),
+    ("A06","Oscar","Pascual","1985-09-10 18:27:33","DAW",22.12,null),
+    ("A07","Carlos","Garcia","1984-10-01 09:08:15","DAW",12.12,null);

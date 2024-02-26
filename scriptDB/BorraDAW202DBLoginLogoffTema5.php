@@ -16,8 +16,11 @@ try {
     // Elimino la tabla T01_Usuario 
     $query3 = "DROP TABLE T01_Usuario";
 
+    // Elimina la tabla T09_Alumno
+    $query4 = "DROP TABLE T09_Alumno";
+
     // Ejecutar consultas SQL
-    $sql_queries = [$query1, $query2, $query3];
+    $sql_queries = [$query1, $query2, $query3, $query4];
 
     foreach ($sql_queries as $query) {
         if ($conn->query($query) === FALSE) {

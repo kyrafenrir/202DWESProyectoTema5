@@ -35,8 +35,18 @@ try {
         T02_FechaBajaDepartamento DATETIME
     )ENGINE=INNODB;";
 
+    $query6= "CREATE TABLE T09_Alumno (
+        T09_CodAlumno CHAR(3) PRIMARY KEY,
+        T09_NombreAlumno VARCHAR(255),
+        T09_ApellidosAlumno VARCHAR(255),
+        T09_FechaNacimiento DATETIME,
+        T09_Grupo ENUM('DAW','DAM','ASIR'),
+        T09_ImporteMatricula FLOAT,
+        T09_FechaBaja DATETIME
+    )ENGINE=INNODB;";
+
     // Ejecutar consultas SQL
-    $sql_queries = [$query1, $query2, $query3, $query4, $query5];
+    $sql_queries = [$query1, $query2, $query3, $query4, $query5, $query6];
 
     foreach ($sql_queries as $query) {
         if ($conn->query($query) === FALSE) {

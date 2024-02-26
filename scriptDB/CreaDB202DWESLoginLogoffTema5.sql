@@ -34,6 +34,17 @@ CREATE TABLE T02_Departamento (
     T02_FechaBajaDepartamento DATETIME
 )ENGINE=INNODB;
 
+--Crear la tabla T09_Alumno
+CREATE TABLE T09_Alumno (
+    T09_CodAlumno CHAR(3) PRIMARY KEY,
+    T09_NombreAlumno VARCHAR(255),
+    T09_ApellidosAlumno VARCHAR(255),
+    T09_FechaNacimiento DATETIME,
+    T09_Grupo ENUM('DAW','DAM','ASIR'),
+    T09_ImporteMatricula FLOAT,
+    T09_FechaBaja DATETIME
+)ENGINE=INNODB;
+
 --Creación del usuario de la base de datos
 CREATE USER 'user202DWESLoginLogoffTema5'@'%' IDENTIFIED BY 'paso';
 
